@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #282D35;
+}
+.App-logo{
+
+  height: 50px;
+  margin-right: 0px;
+ 
+}
+
+.App-header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 125px;
+  padding: 30px 25px;
+ 
+
+  background: #21222A;
+}
+.content{
+  padding: 60px 25px;
+  background-image: url(./react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+  
+}
+
+h3{
+  width: 122.39px;
+  height: 22.25px;
+  
+ 
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+
+  color: #61DAFB;
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+h4{
+
+  width: 259px;
+  height: 21px;
+
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #DEEBF8;
+}
+h1{
+  
+  margin-left: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 47px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+li{
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 65px;
+  /* identical to box height */
+  max-width: 10000px;
+
+
+  color: #FFFFFF;
+  margin-left:  20px;
+  
+
+}
+li::marker{
+  font-size: 2.5rem;
+  color: #61DAFB;
+}
+
